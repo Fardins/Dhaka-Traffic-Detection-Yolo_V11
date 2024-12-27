@@ -26,8 +26,6 @@ if "video_path" not in st.session_state:
 sample_videos = {
     "Sample Traffic Video-1": "./inputs/input-1.mp4",
     "Sample Traffic Video-2": "./inputs/input-2.mp4",
-    "Sample Traffic Video-3": "./inputs/input-3.mp4",
-    "Sample Traffic Video-4": "./inputs/input-4.mp4",
 }
 
 selected_sample_video = st.radio("Choose a sample video:", ["None"] + list(sample_videos.keys()))
