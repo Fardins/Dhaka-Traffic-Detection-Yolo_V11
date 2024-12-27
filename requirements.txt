@@ -1,0 +1,8 @@
+opencv-python
+opencv-python-headless  # Optional, for environments without GUI
+pillow
+ultralytics
+streamlit
+moviepy
+imageio 
+imageio[ffmpeg]
