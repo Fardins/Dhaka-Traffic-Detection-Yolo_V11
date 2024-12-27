@@ -31,6 +31,7 @@ sample_videos = {
 }
 
 selected_sample_video = st.radio("Choose a sample video:", ["None"] + list(sample_videos.keys()))
+st.write("Please upload Traffic video under 30mb")
 uploaded_file = st.file_uploader("Upload a Traffic Video..", type=["mp4", "avi"])
 
 # Determine the video path based on user input
